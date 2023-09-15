@@ -1,0 +1,31 @@
+{
+  "developers": [
+    {
+      "name": "Ada",
+      "fullname": "Ada Lovelace",
+      "image": "https://cdn.glitch.global/acf69764-da86-45d1-8f3f-1634702e1751/adalovelace.jpg?v=1647693515759",
+      "joined": 2021,
+      "job": "Computer Programmer",
+      "city": "London",
+      "mates": 36
+    },
+    {
+      "name": "Mark",
+      "fullname": "Mark Zuckerberg",
+      "image": "https://cdn.glitch.global/acf69764-da86-45d1-8f3f-1634702e1751/MarkZuckerberg.webp?v=1647545455794",
+      "joined": 2020,
+      "job": "Web Designer",
+      "city": "New York",
+      "mates": 37
+    },
+    {
+      "name": "Charles",
+      "fullname": "Charles Babbage",
+      "image": "https://cdn.glitch.global/acf69764-da86-45d1-8f3f-1634702e1751/charlesbabbage.jpeg?v=1647545226453",
+      "joined": 2018,
+      "job": "Computer Programmer",
+      "city": "London",
+      "mates": 79
+    }
+  ]
+}

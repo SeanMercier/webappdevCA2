@@ -1,0 +1,39 @@
+{{#unless packs}}
+  <h3 class="ui center aligned message">IT'S PRETTY EMPTY... CONSIDER ADDING
+    SOME MOVIE PACKSS!!!</h3>
+{{/unless}}
+<div class="ui centered cards">
+  {{#each packs}}
+    <div class="ui card">
+      <div class="image">
+        <img src="{{picture}}" />
+      </div>
+      <div class="content">
+        <a class="header" id="packtitles">{{uppercase title}}</a>
+        <div class="metadata">
+          <span class="date">Created: {{formatDate date}}</span>
+        </div>
+        <td class="field">
+          <span class="ui input">
+            <select
+              name="genre"
+              id="genre"
+              style="padding:.6em 2.5em; border:solid lightgray 1px;border-radius:5px;"
+            >
+              <option value="{{genre}}" selected="selected">{{genre}}</option>
+              {{{populate genre}}}
+            </select>
+          </span>
+        </td>
+      </div>
+      <div class="extra content">
+        <a href="/pack/{{id}}" class="ui icon button">
+          <i class="icon folder open"></i>
+        </a>
+        <a href="/dashboard/deletepack/{{id}}" class="ui icon button">
+          <i class="icon trash"></i>
+        </a>
+      </div>
+    </div>
+  {{/each}}
+</div>

@@ -1,0 +1,27 @@
+{
+  "packCollection": [
+    {
+      "id": "9e05d475-69df-4efd-bdea-07b00a53a057",
+      "userid": "c5c13b6e-fbfe-47a2-b358-63d6b848f4e5",
+      "title": "favouRItes",
+      "picture": "http://res.cloudinary.com/dtafawunu/image/upload/v1651404814/cmayjrpdwzamslrkceh7.jpg",
+      "date": "2022-05-01T11:33:33.716Z",
+      "movies": []
+    },
+    {
+      "id": "8398fcda-b626-4e7e-aebb-db73a268d60f",
+      "userid": "3001991b-efab-4792-9a1c-edebc64baaf5",
+      "title": "Test",
+      "picture": "http://res.cloudinary.com/dtafawunu/image/upload/v1651569715/tldblxv1ykvphg83d52n.jpg",
+      "date": "2022-05-03T09:21:55.011Z",
+      "movies": [
+        {
+          "id": "47259515-c70b-4768-83d0-9c336da44f72",
+          "title": "Test  ",
+          "director": "K  ",
+          "duration": "2"
+        }
+      ]
+    }
+  ]
+}
