@@ -1,0 +1,22 @@
+<form
+  class="ui stacked segment form"
+  action="/pack/{{pack.id}}/addmovie"
+  method="POST"
+>
+  <div class="three fields">
+    <div class="field">
+      <label for="title">Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required />
+    </div>
+    <div class="field">
+      <label for="director">Director</label>
+      <input placeholder="Director" type="text" name="director" required />
+    </div>
+
+    <div class="field">
+      <label for="duration">Duration</label>
+      <input placeholder="Duration" type="text" name="duration" required />
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Movie</button>
+</form>

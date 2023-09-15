@@ -1,0 +1,226 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #fcedda;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#readmore {
+  display: none;
+  font-style: oblique;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+nav,
+div,
+a {
+  color: #234e70;
+}
+
+#readmorep {
+  color: #5db0f0;
+}
+
+div#welcomeuser {
+  color: #ff5757;
+}
+
+#startpageparagraph {
+  font-size: 115%;
+  color: #2f3c7e;
+}
+
+#addpacktitle {
+  font-size: 110%;
+}
+
+#addpackimage {
+  font-size: 110%;
+}
+
+#indexloginorsignup {
+  color: #00539cff;
+}
+
+#packtitles {
+  color: #f0545c;
+}
+
+#packtitle {
+  text-decoration: underline;
+  font-size: 200%;
+  color: #ffbe7bff;
+}
+
+#packpagesection {
+  background-color: #fbf8be;
+}
+
+#mainpageheader {
+  color: #ffbe7bff;
+  font-style: oblique;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#aboutmainheader {
+  color: #ffbe7bff;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: 200%;
+}
+
+#dashboardpageheader {
+  font-size: 200%;
+  color: #ffbe7bff;
+  text-decoration: underline;
+}
+
+#mainpagesection {
+  background-color: #fbf8be;
+}
+
+#twostatisticsdisplay {
+  background-color: #ffbe7bff;
+}
+
+#contactdetailsheader {
+  font-size: 180%;
+  text-decoration: underline;
+}
+
+h2#dashboard {
+  color: #72c5e8;
+}
+
+p#idparagraphs {
+  font-style: italic;
+}
+
+section#dashboardsection {
+  background-color: #fbf8be;
+}
+
+tr#listmvs {
+  text-align: center;
+}
+
+div#friendsiconabout {
+  background-color: lightblue;
+}
+
+a#dashboard {
+  color: #ffbe7bff;
+  background-color: #fcedda;
+  font-size: 120%;
+  font-style: bolder;
+}
+
+#header3startpage {
+  font-size: 170%;
+  font-style: italic;
+  color: #2f3c7e;
+}
+
+#statisticsdisplay {
+  font-size: 160%;
+  color: #2f3c7e;
+}
+
+#signupregisterheader {
+  color: #234e70;
+  font-size: 170%;
+  font-style: oblique;
+  text-align: center;
+}
+
+#loginheader {
+  color: #234e70;
+  font-size: 170%;
+  font-style: oblique;
+  text-align: center;
+}
+
+#loginfullpage {
+  background-color: #eea47fff;
+}
+
+#aboutpagegrid {
+  background-color: #ffbe7bff;
+}
+
+#signupfullpage {
+  background-color: #eea47fff;
+}
+
+a#about {
+  background-color: #fcedda;
+  font-size: 120%;
+  font-style: bolder;
+  color: #ffbe7bff;
+}
+
+a#login {
+  color: #8aaae5;
+  font-weight: bolder;
+}
+
+a#signup {
+  color: #8aaae5;
+  font-weight: bolder;
+}
+
+a#logout {
+  color: #8aaae5;
+  font-weight: bolder;
+}
+
+header#moviemanagerbox {
+  background-color: #170000;
+}
+
+#addpackarea {
+  text-align: center;
+}
+
+section#about {
+  background-color: #fbf8be;
+}
+
+span#date {
+  font-style: italic;
+}
+
+div#description {
+  font-size: 110%;
+}
+
+#cardbackgroundarea {
+  background-color: #ffbe7bff;
+}
+
+#cardheader {
+  color: #fbf8be;
+}
+
+.name {
+  padding-top: 20px;
+  padding-right: 5px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contactdetails {
+  font-size: 140%;
+}

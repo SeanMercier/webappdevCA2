@@ -1,0 +1,18 @@
+<form
+  class="ui stacked segment form"
+  action="/dashboard/addpack"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <div class="two fields">
+    <div class="field">
+      <label id="addpacktitle">Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required />
+    </div>
+    <div class="field">
+      <label id="addpackimage">Image</label>
+      <input placeholder="Image" type="file" name="picture" required />
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Pack</button>
+</form>
